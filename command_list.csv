@@ -1,0 +1,60 @@
+    1  mkdir ~/HW_10
+    2  cd ~/HW_10
+    3  git config --global user.name Daria K
+    4  git config --global user.email darkot583@gmail.com
+    5  git clone https://github.com/Dasha123890/HW_10.git
+    6  rm -rf HW_10\n
+    7  git clone https://github.com/Dasha123890/HW_10.git\n
+    8  cd HW_10
+    9  touch text_ignore.txt
+   10  nano .gitignore
+   11  git  status
+   12  git add .
+   13  git commit -m "Added text_ignore.txt to .gitignore"\n
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "Created empty file main_test.txt"\n
+   17  git checkout -b develop\n
+   18  touch develop_test.txt\n
+   19  git add .
+   20  git commit -m "Created develop_test.txt in develop branch"\n
+   21  nano develop_test.txt
+   22  git status
+   23  git add .
+   24  git commit -m "Made a small change to develop_test.txt"\n
+   25  git checkout main
+   26  git merge develop
+   27  git log
+   28  history 0 > command_list.csv\n
+   29  git add .
+   30  git commit -m "Added command history to command_list.csv"\n
+   31  git push origin main\n
+   32  git status
+   33  exit
+   34  mkdir ~/HW10
+   35  cd ~/HW10
+   36  hictory -c&& rm ~/.bash_history
+   37  history -c && rm ~/.bash_history
+   38  git config --global user.name Daria K
+   39  git config --global user.email darkot583@gmail.com
+   40  git clone https://github.com/Dasha123890/HW10.git
+   41  cd HW10
+   42  touch text_ignore.txt
+   43  nano .gitignore
+   44  git status
+   45  git add .
+   46  git commit -m "Added text_ignore.txt to .gitignore"\n
+   47  touch main_test.txt
+   48  git add .
+   49  git commit -m "Created empty file main_test.txt"\n
+   50  git checkout -b develop\n
+   51  touch develop_test.txt\n
+   52  git add .
+   53  git commit -m "Created develop_test.txt in develop branch"\n
+   54  nano develop_test.txt
+   55  git status
+   56  git add .
+   57  git commit -m "Made a small change to develop_test.txt"\n
+   58  git checkout main
+   59  git merge develop
+   60  git log
